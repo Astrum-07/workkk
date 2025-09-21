@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.container1{
+    width: 90%;
+    margin: 0 auto;
+}
+@theme {
+  --breakpoint-xs: 300px;
+  --breakpoint-xr: 450px;
+  --breakpoint-xe: 550px;
+  --breakpoint-lm: 1200px;
+}
