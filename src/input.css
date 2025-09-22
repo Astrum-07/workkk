@@ -7,5 +7,6 @@
   --breakpoint-xs: 300px;
   --breakpoint-xr: 450px;
   --breakpoint-xe: 550px;
+  --breakpoint-ld: 900px;
   --breakpoint-lm: 1200px;
 }
