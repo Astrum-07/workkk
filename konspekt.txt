@@ -1,0 +1,11 @@
+jsda array metodlari 
+arrayga biz malumot saqlaymiz 
+u malumotlar xohlagan tipda bo'lishi mumkin masalan: string number beowling v.h
+metodlar ikki turga bolinadi 
+birnichi oddiylar u metodlar array ichidagi malumotni qirqishi yoki malumotni qoshishi mumkin 
+ikkinchisi bu malumot ustida ishlash masalan arrayni map metodi bilan ishlaganda u array ichidagi malumotni yoqotmagan holda yangi malumot beradi
+filtr metodi bu o'ziga berilgan shart ni topadi array ichidan shu shartga togri keladigan 
+some metodi bu array malumotlari ichidan faqat true ga togri keladiganni topadi va nechta false bolsa ham true oladi 
+every metodi bu arraydagi malumot ichidan nechta true bolsa ham faqat false ni oladi 
+reduce metodi hamma malumotni yigib beradi
+find metodi bu array ichidagi malumotlar ichidan shartga mos keladigan birinchi malumotni chiqaradi agar mos elemet topmasa undefine chiqaradi
