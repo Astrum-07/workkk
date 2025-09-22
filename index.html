@@ -1,36 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lombard</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./img/logomini.png" type="image/x-icon">
+  </head>
+  <body>
     <!-- header start -->
-     <header class="py-[20px]">
-        <div class="container1">
-            <nav class="navbar flex justify-between items-center">
-                <nav>
-                    <img src="./img/logo.png" alt="">
-                </nav>
-                
-                <nav class="lm:flex xs:hidden">
-                    <ul class="flex justify-between lm:gap-[40px] lg:gap-[20px]">
-                        <li><a class="font-medium text-base" href="#">О программе</a></li>
-                        <li><a class="font-medium text-base" href="#">Тарифы и цены</a></li>
-                        <li><a class="font-medium text-base" href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <button class="px-4 py-3.5 rounded-[10px] border-2 border-solid border-[rgb(9,98,238)] text-[rgb(9,98,238)] font-bold text-base">Попробовать бесплатно</button>
+    <header class="py-[20px] sticky top-0 z-50 bg-[white]">
+      <div class="container1">
+        <nav class="navbar flex justify-between items-center">
+          <nav>
+            <img src="./img/logo.png" alt="" />
+          </nav>
 
-                <nav>
-                    <p class="font-medium text-[13px] text-[rgb(9,98,238)]">Заказать обратный звонок</p>
-                    <a class="font-bold text-xl" href="tel:+7 (495) 677-95-51">+7 (495) 677-95-51</a>
-                </nav>
-            </nav>
-        </div>
-     </header>
+          <nav class="lm:flex xs:hidden">
+            <ul class="flex justify-between lm:gap-[40px] lg:gap-[20px]">
+              <li><a class="font-medium text-base" href="#">О программе</a></li>
+              <li>
+                <a class="font-medium text-base" href="#">Тарифы и цены</a>
+              </li>
+              <li><a class="font-medium text-base" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <button
+            class="px-4 py-3.5 rounded-[10px] border-2 border-solid md:flex xs:hidden border-[rgb(9,98,238)] text-[rgb(9,98,238)] font-bold text-base"
+          >
+            Попробовать бесплатно
+          </button>
+
+          <nav class="xr:flex xr:flex-col xs:hidden">
+            <p class="font-medium text-[13px] text-[rgb(9,98,238)]">
+              Заказать обратный звонок
+            </p>
+            <a class="font-bold text-xl" href="tel:+7 (495) 677-95-51"
+              >+7 (495) 677-95-51</a
+            >
+          </nav>
+          <nav class="xr:hidden xs:flex">
+          <i class="fa-solid fa-bars  text-4xl text-[rgb(9,98,238)]"></i>
+
+          </nav>
+        </nav>
+      </div>
+    </header>
     <!-- header end-->
-</body>
+
+    <!-- showcase start -->
+     <section class="sm:py-[70px] xs:py-[30px]">
+        <div class="container1">
+            <div class="p sm:flex sm:flex-row xs:flex xs:flex-col gap-10 justify-between items-center">
+                <div class="l sm:w-auto xs:w-[100%]">
+                    <h1 class=" font-medium lg:text-[54px] md:text-[40px] sm:text-[35px] xr:text-[45px] xs:text-[30px] leading-[115%]">Лучшая программа <br> для автоматизации <br> <span class="text-[rgb(9,98,238)]">автоломбарда</span></h1>
+                    <p class=" font-medium lg:text-[32px] sm:text-[25px] xs:text-[16px] leading-[120%] sm:my-[50px] xs:my-[20px]">Начните работать в XLombard <br> бесплатно уже сегодня</p>
+                    <div class="flex items-center lm:gap-10 xs:gap-3">
+                        <button class=" lm:px-7 xs:p-3 lm:py-4 rounded-[10px] bg-[rgb(9,98,238)] font-bold lm:text-2xl lg:text-[18px] sm:text-[14px] xs:text-[10px]  text-[white]">Хочу попробовать!</button>
+                        <p class="font-medium lm:text-base xs:text-[8px] leading-[140%]">Подберем пакет документов <br> и сделаем базовые настройки</p>
+                    </div>
+                </div>
+
+                <div class="r flex items-center relative lm:w-[50%] ">
+                    <img class="lm:absolute" src="./img/showcase.png" alt="">
+                    <div class="rounded-[20px] p-[50px] bg-[rgb(241,242,254)] text-end w-[306px] h-[366px] ml-[400px] lm:flex lm:flex-col xs:hidden">
+                        <h2 class="font-medium text-3xl leading-[120%] "><span class="w-[42px] h-[42px] bg-[rgb(202,210,255)] p-[5px]">Ф</span>ункционал</h2>
+                        <p class="font-normal text-lg leading-[130%] mt-[20px]">18 модулей</p>
+                        <p class="font-normal text-lg leading-[130%] mt-[10px]">Полный цикл <br> управления <br> портфелем</p>
+                        <p class="font-normal text-lg leading-[130%] mt-[10px]">Безопасность</p>
+                        <p class="font-normal text-lg leading-[130%] mt-[10px]">CRM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- showcase end -->
+
+    <!-- idel start -->
+     <section class="bg-[rgb(240,241,253)] py-[60px]">
+        <div class="container1">
+            <div class="p sm:flex sm:flex-row xs:flex xs:flex-col justify-between gap-5">
+                <div class="l flex flex-col items-start gap-10 sm:w-auto xs:w-full">
+                    <h2 class=" font-medium text-4xl leading-[110%]">
+                        <span class="w-[50px] h-[50px] bg-[rgb(167,233,190)]">И</span>деально <br>  для любого <br> автоломбарда
+                    </h2>
+                    <img src="./img/idel1.png" alt="">
+                </div>
+
+                <div class="r sm:w-[60%] xs:w-full">
+                    <div class="t grid lm:grid-cols-3 lg:grid-cols-2 gap-10">
+                        <div class="box rounded-3xl bg-[white] shadow-[0_26px_44px_-10px_rgba(57,81,219,0.27)]">
+                            <h3 class="font-medium text-2xl leading-[120%] px-[20px] pt-[20px]">Обратный лизинг</h3>
+                            <p class="font-medium text-base leading-[140%] px-[20px] py-[20px]">Описание типа ломбарда <br> на две строки</p>
+                            <div class=" flex items-center gap-3 p-[30px] bg-[#f0f2fe] rounded-br-3xl rounded-bl-3xl">
+                                <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15.5 2H7C6.46957 2 5.96086 2.21071 5.58579 2.58579C5.21071 2.96086 5 3.46957 5 4V20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V7.5L15.5 2Z" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1 8V24C1 24.5304 1.21071 25.0391 1.58579 25.4142C1.96086 25.7893 2.46957 26 3 26H15" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15 2V8H21" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+<p class="font-bold text-sm leading-[140%] uppercase text-[#788ec7]">ДКП + ДФА</p>
+                            </div>
+                        </div>
+
+                        <div class="box rounded-3xl bg-[white] shadow-[0_26px_44px_-10px_rgba(57,81,219,0.27)]">
+                            <h3 class="font-medium text-2xl leading-[120%] px-[20px] pt-[20px]">Обратный лизинг</h3>
+                            <p class="font-medium text-base leading-[140%] px-[20px] py-[20px]">Описание типа ломбарда <br> на две строки</p>
+                            <div class=" flex items-center gap-3 p-[30px] bg-[#f0f2fe] rounded-br-3xl rounded-bl-3xl">
+                                <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15.5 2H7C6.46957 2 5.96086 2.21071 5.58579 2.58579C5.21071 2.96086 5 3.46957 5 4V20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V7.5L15.5 2Z" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1 8V24C1 24.5304 1.21071 25.0391 1.58579 25.4142C1.96086 25.7893 2.46957 26 3 26H15" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15 2V8H21" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+<p class="font-bold text-sm leading-[140%] uppercase text-[#788ec7]">ДКП + ДФА</p>
+                            </div>
+                        </div>
+
+                        <div class="box rounded-3xl bg-[white] shadow-[0_26px_44px_-10px_rgba(57,81,219,0.27)]">
+                            <h3 class="font-medium text-2xl leading-[120%] px-[20px] pt-[20px]">Обратный лизинг</h3>
+                            <p class="font-medium text-base leading-[140%] px-[20px] py-[20px]">Описание типа ломбарда <br> на две строки</p>
+                            <div class=" flex items-center gap-3 p-[30px] bg-[#f0f2fe] rounded-br-3xl rounded-bl-3xl">
+                                <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15.5 2H7C6.46957 2 5.96086 2.21071 5.58579 2.58579C5.21071 2.96086 5 3.46957 5 4V20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V7.5L15.5 2Z" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1 8V24C1 24.5304 1.21071 25.0391 1.58579 25.4142C1.96086 25.7893 2.46957 26 3 26H15" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M15 2V8H21" stroke="#A8BAE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+<p class="font-bold text-sm leading-[140%] uppercase text-[#788ec7]">ДКП + ДФА</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="font-medium text-2xl mt-[70px]"><span class="w-[50px] h-[50px] bg-[rgb(170,196,227)] ">С</span>оздали специальную конфигурацию для обратного лизинга</h2>
+                    <p class=" font-normal text-xl mb-[30px]">Учли все тонкости бизнеса и подключили необходимые сервисы</p>
+
+                    <button class="font-bold text-2xl px-7 py-4 rounded-[10px] bg-[rgb(9,98,238)] text-[white] ">Сел и поехал</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- idel end -->
+  </body>
 </html>
